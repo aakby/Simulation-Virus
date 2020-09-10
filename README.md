@@ -1,2 +1,6 @@
 # Simulation-Virus
-Le but de l'application est de réaliser une simulation réaliste de la propagation d'un virus.
+Le but de l'application est la conception d’un programme informatique paramétré en amont par un virus choisi (éventuellement modifiable) contenant ses caractériques ( mode de propagation, environnement dans lequel il se propage, noyaux…) capable de produire une simulation de la propagation de ce virus. Idéalement le résultat de la simulation doit être le plus semblable possible à la propagation réelle du virus. En effet les virus traités par notre programme sont des virus dont les caractéristiques et la propagation réelle passée sont connues.
+
+L'utilisateur peut remplir les caractéristiques d’un nouveau virus de son choix, ou bien importer un fichier qui contient les caractéristiques d’un virus qui existe déjà. L’utilisateur choisit la position spatiale de départ du virus et lance la simulation. Il a la possibilité de lancer une seule simulation et d’afficher le résultat ou bien de lancer plusieurs simulations de suite et de n’afficher que la pire simulation, c’est à dire le cas ou le virus s’est le plus propagé. L’affichage sera sous forme de carte du monde ou de la carte de la zone à observer. Des cercles de plus ou moins grandes tailles au sein des pays ou villes renseigneront sur l’état de la contamination des lieux considérés. En passant la souris sur les pays/villes, des informations complémentaires apparaîtront.
+
+Veuillez retrouver les diagrammes UML et l'architecture du projet dans le dossier presentation.
